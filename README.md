@@ -1,12 +1,11 @@
 # AnimeFacesWithGAN
 Building a GAN to generate anime faces.
 
-
 In this repository, I am trying to improve the performance of the GAN model which was introduced here: https://jovian.com/aakashns/06b-anime-dcgan
 
 I've created multiple versions and for each version, I have experimented over different approaches on training GAN's.
 
-## v1
+# v1
 
 Version 1 is the exact notebook that was introduced on Jovian.
 ## Discriminator Network Architecture
@@ -70,3 +69,66 @@ The discriminator is a convolutional neural network designed for image classific
 - The output is a 1x1x1 tensor, which corresponds to a single scalar value.
 
 This discriminator is a crucial component in a GAN and is trained to become increasingly better at distinguishing real images from fake ones during the training process.
+
+## Generator Network Architecture
+
+The generator is a convolutional neural network responsible for generating images in a Generative Adversarial Network (GAN) setup. It takes random noise (latent vectors) as input and generates images.
+
+### Architecture Overview
+
+- Input: Latent vector of size `latent_size x 1 x 1`.
+
+### Layers
+
+1. Transposed Convolution Layer 1:
+   - Number of Filters: 512
+   - Kernel Size: 4x4
+   - Stride: 1
+   - Padding: 0
+   - Activation: Leaky ReLU with a slope of 0.2
+   - Batch Normalization
+
+2. Transposed Convolution Layer 2:
+   - Number of Filters: 256
+   - Kernel Size: 4x4
+   - Stride: 2
+   - Padding: 1
+   - Activation: Leaky ReLU with a slope of 0.2
+   - Batch Normalization
+
+3. Transposed Convolution Layer 3:
+   - Number of Filters: 128
+   - Kernel Size: 4x4
+   - Stride: 2
+   - Padding: 1
+   - Activation: Leaky ReLU with a slope of 0.2
+   - Batch Normalization
+
+4. Transposed Convolution Layer 4:
+   - Number of Filters: 64
+   - Kernel Size: 4x4
+   - Stride: 2
+   - Padding: 1
+   - Activation: Leaky ReLU with a slope of 0.2
+   - Batch Normalization
+
+5. Transposed Convolution Layer 5 (Output Layer):
+   - Number of Filters: 3
+   - Kernel Size: 4x4
+   - Stride: 2
+   - Padding: 1
+   - Activation: Tanh
+
+### Output
+
+- The output of the network is a color image with 3 channels and a size of 64x64 pixels.
+
+### Activation Function
+
+- The final output is passed through a hyperbolic tangent (Tanh) activation function to ensure pixel values are in the range [-1, 1].
+
+### Network Output Size
+
+- The output of the generator is a 3x64x64 tensor, representing the generated image.
+
+The generator plays a key role in the GAN framework by learning to create realistic images from random noise, with the goal of fooling the discriminator.
