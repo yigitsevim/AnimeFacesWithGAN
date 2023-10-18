@@ -142,5 +142,6 @@ Changes from v1:
 
 Changes from v1: 
 - Switched to LeakyReLU (from ReLU) on generator.
+  
 Changes from v2: 
 - Trained Discriminator only if Loss_d > Threshold (0.2). 
