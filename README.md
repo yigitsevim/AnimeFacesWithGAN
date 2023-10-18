@@ -136,13 +136,25 @@ The generator plays a key role in the GAN framework by learning to create realis
 # v2
 
 Changes from v1: 
-- Switched to LeakyReLU (from ReLU) on generator.
+- Switched to LeakyReLU (from ReLU) on generator. Kept LeakyReLU for the rest of the versions.
 
 # v3
-
-Changes from v1: 
-- Switched to LeakyReLU (from ReLU) on generator.
-
   
 Changes from v2: 
-- Trained Discriminator only if Loss_d > Threshold (0.2). 
+- Updated Discriminator Gradients only if Loss_d > Threshold (0.2). 
+
+# v4.1
+
+Changes from v3: 
+- Decreased the discriminator loss treshold to 0.1 from 0.2.
+
+# v4.2
+
+Changes from v3: 
+- Increased the discriminator loss treshold to 0.3 from 0.2.
+
+# v4.3
+
+Changes from v3: 
+- Discriminator Loss threshold is set to 0.2,
+- Updated Generator gradients only if Loss_g > Threshold (4.0).
