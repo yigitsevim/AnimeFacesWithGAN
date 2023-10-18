@@ -132,3 +132,15 @@ The generator is a convolutional neural network responsible for generating image
 - The output of the generator is a 3x64x64 tensor, representing the generated image.
 
 The generator plays a key role in the GAN framework by learning to create realistic images from random noise, with the goal of fooling the discriminator.
+
+# v2
+
+Changes from v1: 
+- Switched to LeakyReLU (from ReLU) on generator.
+
+# v3
+
+Changes from v1: 
+- Switched to LeakyReLU (from ReLU) on generator.
+Changes from v2: 
+- Trained Discriminator only if Loss_d > Threshold (0.2). 
