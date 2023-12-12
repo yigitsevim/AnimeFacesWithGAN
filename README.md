@@ -2,6 +2,7 @@
 Building a GAN to generate anime faces.
 
 In this repository, I tried to improve the performance of the GAN model which was introduced here: https://jovian.com/aakashns/06b-anime-dcgan
+
 I've experimented over multiple versions and for each version, I have changed few settings to achieve a more stable training process and to avoid problems such as mode collapse and overfitting.
 
 # v1
