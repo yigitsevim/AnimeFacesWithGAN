@@ -10,7 +10,7 @@ Version 1 is based on the notebook that was introduced on Jovian with my improve
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![]([https://...Dark.png](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0010.png))  |  ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0020.png)
+![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0010.png)  |  ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0020.png)
 # v2
 
 Changes from v1: 
