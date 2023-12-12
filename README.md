@@ -1,13 +1,13 @@
 # AnimeFacesWithGAN
 Building a GAN to generate anime faces.
 
-In this repository, I am trying to improve the performance of the GAN model which was introduced here: https://jovian.com/aakashns/06b-anime-dcgan
+In this project, I tried to improve the performance of the GAN model which was introduced here: https://jovian.com/aakashns/06b-anime-dcgan with some alterations.
 
-I've created multiple versions and for each version, I have experimented over different approaches on training GAN's.
+I've experimented over multiple versions. For each version, I have experimented over different approaches on training GAN's to make the training process more stable and to avoid the problems such as mode collapse.
 
 # v1
 
-Version 1 is the exact notebook that was introduced on Jovian.
+Version 1 is the exact notebook that was introduced on Jovian with better performance tracking that I've implemented.
 ## Discriminator Network Architecture
 
 The discriminator is a convolutional neural network designed for image classification in a Generative Adversarial Network (GAN) setup. It's responsible for distinguishing between real and generated images.
