@@ -15,6 +15,7 @@ Step 0            |  Step 20          | Step 100
 
 Changes from v1: 
 - Switched to LeakyReLU (from ReLU) on generator. Kept LeakyReLU for the rest of the versions.
+
 Step 40            |  Step 70          | Step 100
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0000.png)  |  ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0020.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0100.png)
