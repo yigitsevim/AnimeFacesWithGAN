@@ -17,7 +17,7 @@ Step 0            |  Step 20          | Step 100
 # v2
 
 Changes from v1: 
-- Switched to LeakyReLU (from ReLU) on generator with the aim of achieving a stronger Generator model. However,   
+- Switched to LeakyReLU (from ReLU) on generator with the aim of achieving a stronger Generator model. However, that resulted into mode collapse so this change is reverted on the next experiments.
 
 Step 40            |  Step 70          | Step 100
 :-------------------------:|:-------------------------:|:-------------------------:
