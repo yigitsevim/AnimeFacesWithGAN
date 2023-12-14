@@ -9,7 +9,7 @@ Sample Image From the Dataset|
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/sample.png)|
 
 # v1
-Version 1 is based on the notebook that was introduced on Jovian with my improvements on the training loop with keeping track of the training logs and creating useful charts to analyze the performance of the models.
+Version 1 is based on the notebook that was introduced on Jovian with my improvements on the training loop with keeping track of the training logs and creating useful charts to analyze the performance and stability of the Generator and the Discriminator models.
 
 Step 0            |  Step 20          | Step 100
 :-------------------------:|:-------------------------:|:-------------------------:
