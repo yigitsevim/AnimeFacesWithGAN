@@ -25,7 +25,8 @@ Step 40            |  Step 70          | Step 100
 # v3
   
 Changes from v2: 
-- Updated Discriminator Gradients only if Loss_d > Threshold (0.2). 
+- Applied one-sided label smoothing to the Discriminator model: The idea of one-sided label smoothing is to replace the target for the real examples with a value slightly less than one, such as 0.9. This prevents extreme extrapolation behavior in the discriminator.
+    — [NIPS 2016 Tutorial: Generative Adversarial Networks, 2016.](https://arxiv.org/abs/1701.00160) 
 
 # v4.1
 
