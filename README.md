@@ -7,6 +7,9 @@ I've experimented over multiple versions and for each version, I have changed fe
 
 # v1
 Version 1 is based on the notebook that was introduced on Jovian with my improvements on the training loop with keeping track of the training logs and creating useful charts to analyze the performance of the models.
+Sample Image From the Dataset|
+:---:|
+![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/sample.png)|
 
 Step 0            |  Step 20          | Step 100
 :-------------------------:|:-------------------------:|:-------------------------:
