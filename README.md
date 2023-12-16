@@ -4,7 +4,7 @@ Building a GAN to generate anime faces.
 In this repository, I tried to improve the performance of the GAN model which was introduced here: https://jovian.com/aakashns/06b-anime-dcgan
 
 I've experimented over multiple versions and for each version, I have changed few settings to achieve a more stable training process and to avoid problems such as mode collapse and overfitting.
-Sample Image From the Dataset|
+Sample Batch From the Dataset|
 :---:|
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/sample.png)|
 
@@ -14,6 +14,7 @@ Version 1 is based on the notebook that was introduced on Jovian with my improve
 Step 0            |  Step 20          | Step 100
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0000.png)  |  ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0020.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0100.png)
+
 # v2
 
 Changes from v1: 
@@ -22,12 +23,17 @@ Changes from v1:
 Step 40            |  Step 70          | Step 100
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0040.png)  |  ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0020.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0100.png)
+
 # v3
   
 Changes from v2: 
 - Reverted back to ReLU for the Generator.
 - Applied one-sided label smoothing to the Discriminator network: The idea of one-sided label smoothing is to replace the target for the real examples with a value slightly less than one, such as 0.9. This prevents extreme extrapolation behavior in the discriminator.
   - [NIPS 2016 Tutorial: Generative Adversarial Networks, 2016.](https://arxiv.org/abs/1701.00160) 
+
+Step 40            |  Step 70          | Step 100
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0040.png)  |  ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0020.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0100.png)
 
 # v4.1
 
