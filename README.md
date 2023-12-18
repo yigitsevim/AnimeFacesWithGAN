@@ -4,6 +4,10 @@ Building a GAN to generate anime faces.
 In this repository, I tried to improve the performance of the GAN model which was introduced here: https://jovian.com/aakashns/06b-anime-dcgan
 
 I've experimented over multiple versions and for each version, I have changed few settings to achieve a more stable training process and to avoid problems such as mode collapse and overfitting.
+
+Generative adversarial networks lack an objective function, which makes it difficult to compare performance of different models. One intuitive metric of performance can be obtained by having human annotators judge the visual quality of samples.
+
+— (Improved Techniques for Training GANs, 2016.)[https://arxiv.org/abs/1606.03498]
 Sample Batch From the Dataset|
 :---:|
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/sample.png)|
