@@ -31,8 +31,7 @@ Step 40            |  Step 70          | Step 100
   
 Changes from v2: 
 - Reverted back to ReLU for the Generator.
-- Applied one-sided label smoothing to the Discriminator network: The idea of one-sided label smoothing is to replace the target for the real examples with a value slightly less than one, such as 0.9. This prevents extreme extrapolation behavior in the discriminator.
-  - [NIPS 2016 Tutorial: Generative Adversarial Networks, 2016.](https://arxiv.org/abs/1701.00160) 
+- Applied one-sided label smoothing to the Discriminator network: *The idea of one-sided label smoothing is to replace the target for the real examples with a value slightly less than one, such as 0.9. This prevents extreme extrapolation behavior in the discriminator.* - [NIPS 2016 Tutorial: Generative Adversarial Networks, 2016.](https://arxiv.org/abs/1701.00160) 
 
 Step 40            |  Step 70          | Step 100
 :-------------------------:|:-------------------------:|:-------------------------:
