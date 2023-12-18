@@ -35,18 +35,12 @@ Step 40            |  Step 70          | Step 100
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0040.png)  |  ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0020.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0100.png)
 
-# v4.1
+# v4
 
 Changes from v3: 
-- Decreased the discriminator loss treshold to 0.1 from 0.2.
+- 1. One-sided label smoothing value is selected uniform randomly between 0.1 - 0.2. 
 
-# v4.2
+# v5
 
-Changes from v3: 
-- Increased the discriminator loss treshold to 0.3 from 0.2.
 
-# v4.3
-
-Changes from v3: 
-- Discriminator Loss threshold is set to 0.2,
-- Updated Generator gradients only if Loss_g > Threshold (4.0).
+# v6
