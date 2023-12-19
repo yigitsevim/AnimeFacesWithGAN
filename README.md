@@ -48,4 +48,6 @@ Changes from v4:
 - Tracking Gradient norms while training.
 - Label Smoothing values are set between (0, 0.3)
 
-# v6
+# v6 (WGAN)
+Changes from v6:
+- Used Wassertein Loss
