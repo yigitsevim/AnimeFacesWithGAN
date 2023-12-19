@@ -40,12 +40,12 @@ Step 40            |  Step 70          | Step 100
 # v4
 
 Changes from v3: 
-- 1. Label smoothing is applied to both Generator and Discriminator networks. Smoothing value is selected uniform randomly between 0 - 0.2. 
+- Label smoothing is applied to both Generator and Discriminator networks. Smoothing value is selected uniform randomly between 0 - 0.2. 
 
 # v5
 Changes from v4: 
-- 1. Used SGD for D, ADAM for G network.
-- 2. Tracking Gradient norms while training.
-- 3. Label Smoothing values are set between (0, 0.3)
+- Used SGD for D, ADAM for G network.
+- Tracking Gradient norms while training.
+- Label Smoothing values are set between (0, 0.3)
 
 # v6
