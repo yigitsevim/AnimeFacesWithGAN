@@ -11,7 +11,7 @@ Sample Batch From the Dataset|
 :---:|
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/sample.png)|
 
-# v1 (DCGAN up to v7)
+# v1 (DCGAN up to v6)
 Version 1 is based on the notebook that was introduced on Jovian with my improvements on the training loop with keeping track of the training logs and creating useful charts to analyze the performance and stability of the Generator and the Discriminator models.
 
  Step 100| Score Plot | Loss Plot
@@ -38,7 +38,6 @@ Changes from v2:
  Step 100| Score Plot | Loss Plot
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0100.png) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/d281a32a-295c-4547-9936-e2313c38d8bc) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/581b0ee0-1637-47b4-95d6-2ae178559b98)
-
 
 
 # v4
