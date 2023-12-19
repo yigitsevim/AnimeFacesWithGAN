@@ -49,8 +49,7 @@ Changes from v3:
 # v5
 Changes from v4: 
 - Used SGD for D, ADAM for G network.
-- Tracking Gradient norms while training.
-- Label Smoothing values are set between (0, 0.3)
+- Label Smoothing values are set between (0.1, 0.3)
 
 # v6 (WGAN)
 Changes from v6:
