@@ -76,5 +76,17 @@ Changes from v4:
 |![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/25c01fee-2c6f-4c5a-aa9c-8d5e3f4541b2) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/f384cdcf-c8dd-49f7-9fac-300ce8756a4b)
 
 # v6 (WGAN)
-Changes from v6:
-- Used Wassertein Loss
+Changes from v5:
+- Switched to WGAN
+- Clipped Gradients between [-0.01, 0.01]
+- N_critic = 5
+- Added a linear layer at the end of the discriminator network instead of sigmoid.
+- For both networks, optimizer is changed to RMSprop.
+- 
+| Step 50 | Step 100 |
+|:--------------:|:--------------:|
+| ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v6/generated/generated-images-0050.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v6/generated/generated-images-0100.png) |
+
+| Score Plot | Loss Plot |
+|:----------:|:----------:| 
+|![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/78568cad-95f1-4fa4-98cd-640e7cbdb4fe) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/fc0ad3b0-72ce-4850-9221-2dc6b65bef4e)
