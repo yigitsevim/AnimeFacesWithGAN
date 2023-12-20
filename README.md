@@ -47,8 +47,7 @@ Changes from v3:
 
  Step 100| Score Plot | Loss Plot
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v4/generated/generated-images-0100.png) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/ac066e5f-1702-49fc-9c12-75a8c7f9519a)
- | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/f65f81dc-dcd6-4354-a027-ad765673a82a)
+![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v4/generated/generated-images-0100.png) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/ac066e5f-1702-49fc-9c12-75a8c7f9519a) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/f65f81dc-dcd6-4354-a027-ad765673a82a)
 
 
 
