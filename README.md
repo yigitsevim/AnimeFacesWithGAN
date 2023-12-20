@@ -9,7 +9,7 @@ I've experimented over multiple versions and for each version, I have changed fe
 
 I've kept track of losses and scores of the networks I trained. By both judging the visual quality of the generated images and the training plots, for DCGAN v5 has the settings for the most stable and successfull training. However, the WGAN experiment (v6) outperformed the DCGAN versions in the generated image quality aspect.
 
-Since that I have limited GPU power, I've conducted all the trainings at 100 epochs. But on the experiments such as 5 and 6 where the stable training is achieved, a much longer training can be done to produce better quality results. 
+Since that I have limited computing power with the GPU I have on hand, I concluded all the trainings at 100 epochs. But on the experiments such as 5 and 6 where the stable training is achieved, a much longer training can be done to produce better quality results. 
 
 Sample Batch From the Dataset|
 :---:|
