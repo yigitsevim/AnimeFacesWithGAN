@@ -16,11 +16,12 @@ Version 1 is based on the notebook that was introduced on Jovian with my improve
 
 | Step 100 Image |
 |:--------------:|
-| ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0100.png) |
+| <img src="https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0100.png" width="400"> |
 
 | Score Plot | Loss Plot |
 |:----------:|:----------:|
-| ![Score Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/b62e8c9d-a7f5-4b19-8ada-3bbfa72ee2d4) | ![Loss Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/e3ed3fe8-7252-4769-b318-cc7c53f608e8) |
+| <img src="https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/b62e8c9d-a7f5-4b19-8ada-3bbfa72ee2d4" width="400"> | <img src="https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/e3ed3fe8-7252-4769-b318-cc7c53f608e8" width="400"> |
+
 
 
 
