@@ -22,7 +22,6 @@ Version 1 is based on the notebook that was introduced on Jovian with my improve
 |:----------:|:----------:|
 | ![Score Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/b62e8c9d-a7f5-4b19-8ada-3bbfa72ee2d4) | ![Loss Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/e3ed3fe8-7252-4769-b318-cc7c53f608e8) |
 
-
 # v2
 
 Changes from v1: 
@@ -36,19 +35,19 @@ Changes from v1:
 |:----------:|:----------:|
 !![Score Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/99872d5b-a4fa-4784-9bb6-6c936129ad8d) | ![Loss Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/828bfe1e-5252-4a4b-b2fe-b12163007beb)
 
-
-
-
 # v3
   
 Changes from v2: 
 - Reverted back to ReLU for the Generator.
 - Applied one-sided label smoothing to the Discriminator network: *The idea of one-sided label smoothing is to replace the target for the real examples with a value slightly less than one, such as 0.9. This prevents extreme extrapolation behavior in the discriminator.* - [NIPS 2016 Tutorial: Generative Adversarial Networks, 2016.](https://arxiv.org/abs/1701.00160) 
 
- Step 100| Score Plot | Loss Plot
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0100.png) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/d281a32a-295c-4547-9936-e2313c38d8bc) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/581b0ee0-1637-47b4-95d6-2ae178559b98)
+| Step 50 | Step 100 |
+|:--------------:|:--------------:|
+| ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0050.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v3/generated/generated-images-0100.png) |
 
+| Score Plot | Loss Plot |
+|:----------:|:----------:| 
+!![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/103bc25b-580a-4e1b-bafd-e954b242ab62) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/3a50f973-e090-4b88-a46e-00541aa4d354)
 
 # v4
 
