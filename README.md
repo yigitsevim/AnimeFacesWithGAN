@@ -43,12 +43,24 @@ Changes from v2:
 # v4
 
 Changes from v3: 
-- Label smoothing is applied to both Generator and Discriminator networks. Smoothing value is selected uniform randomly between 0 - 0.2. 
+- Label smoothing is applied to both Generator and Discriminator networks. Smoothing value is selected uniform randomly between 0 - 0.2.
+
+ Step 100| Score Plot | Loss Plot
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v4/generated/generated-images-0100.png) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/ac066e5f-1702-49fc-9c12-75a8c7f9519a)
+ | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/f65f81dc-dcd6-4354-a027-ad765673a82a)
+
+
 
 # v5
 Changes from v4: 
 - Used SGD for D, ADAM for G network.
 - Label Smoothing values are set between (0.1, 0.3)
+
+ Step 100| Score Plot | Loss Plot
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v5/generated/generated-images-0100.png) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/5140ecbc-ca20-4c0c-b558-24e10c4e901f) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/24a5ff9a-39dc-4a5a-82aa-fe16eb1c674e)
+
 
 # v6 (WGAN)
 Changes from v6:
