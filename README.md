@@ -33,7 +33,7 @@ Changes from v1:
 
 | Score Plot | Loss Plot |
 |:----------:|:----------:|
-!![Score Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/99872d5b-a4fa-4784-9bb6-6c936129ad8d) | ![Loss Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/828bfe1e-5252-4a4b-b2fe-b12163007beb)
+!![Score Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/99872d5b-a4fa-4784-9bb6-6c936129ad8d) | ![Loss Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/828bfe1e-5252-4a4b-b2fe-b12163007beb)|
 
 # v3
   
@@ -47,7 +47,7 @@ Changes from v2:
 
 | Score Plot | Loss Plot |
 |:----------:|:----------:| 
-!![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/103bc25b-580a-4e1b-bafd-e954b242ab62) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/3a50f973-e090-4b88-a46e-00541aa4d354)
+!![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/103bc25b-580a-4e1b-bafd-e954b242ab62) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/3a50f973-e090-4b88-a46e-00541aa4d354)|
 
 # v4
 
