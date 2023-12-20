@@ -29,7 +29,7 @@ Version 1 is based on the notebook that was introduced on Jovian with my improve
 # v2
 
 Changes from v1: 
-- Switched to LeakyReLU (from ReLU) on generator with the aim of achieving a stronger Generator model. However, that resulted into mode collapse so this change is reverted on the next experiments.
+- Switched to LeakyReLU (from ReLU) on generator with the aim of achieving a stronger Generator model. The decision was made to switch from ReLU to LeakyReLU in the generator to enhance the robustness of the model. LeakyReLU was chosen for its capability to mitigate the "dying ReLU" problem, where neurons can become inactive during training and hinder the learning process. This leak ensures a more continuous flow of information during backpropagation, promoting better weight updates and aiding in the generation of more diverse outputs. Ultimately, the adoption of LeakyReLU seeks to address the limitations of ReLU and contribute to the overall strengthening of the generator model. However, that resulted into mode collapse so this change is reverted on the next experiments.
 
 | Step 50 | Step 100 |
 |:--------------:|:--------------:|
