@@ -14,7 +14,7 @@ Sample Batch From the Dataset|
 # v1 (DCGAN up to v6)
 Version 1 is based on the notebook that was introduced on Jovian with my improvements on the training loop with keeping track of the training logs and creating useful charts to analyze the performance and stability of the Generator and the Discriminator models.
 
-| Step 50 Image | Step 100 Image |
+| Step 50 | Step 100 |
 |:--------------:|:--------------:|
 | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0050.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v1/generated/generated-images-0100.png) |
 
@@ -28,9 +28,13 @@ Version 1 is based on the notebook that was introduced on Jovian with my improve
 Changes from v1: 
 - Switched to LeakyReLU (from ReLU) on generator with the aim of achieving a stronger Generator model. However, that resulted into mode collapse so this change is reverted on the next experiments.
 
-Step 40            |  Step 100          | Score Plot
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0040.png)  |  ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0100.png) | ![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/5f757d9c-1697-4de3-a97d-82a661e21747)
+| Step 50 | Step 100 |
+|:--------------:|:--------------:|
+| ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0050.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v2/generated/generated-images-0100.png) |
+
+| Score Plot | Loss Plot |
+|:----------:|:----------:|
+![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/5f757d9c-1697-4de3-a97d-82a661e21747)
 
 
 # v3
