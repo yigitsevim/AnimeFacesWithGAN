@@ -82,6 +82,7 @@ Changes from v5:
 - N_critic = 5
 - Added a linear layer at the end of the discriminator network instead of sigmoid.
 - For both networks, optimizer is changed to RMSprop.
+
 | Step 50 | Step 100 |
 |:--------------:|:--------------:|
 | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v6/generated/generated-images-0050.png) | ![](https://github.com/yigitsevim/AnimeFacesWithGAN/blob/main/v6/generated/generated-images-0100.png) |
