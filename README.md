@@ -79,7 +79,7 @@ Changes from v4:
 Changes from v5:
 - Switched to WGAN
 - Clipped Gradients between [-0.01, 0.01]
-- N_critic = 2 (in the original paper advised ncritic parameter is 5. However for this dataset ncritic=2 setting performed much better.)
+- N_critic = 2 (in the original paper, the ncritic parameter is 5. However for this dataset ncritic=2 setting performed much better.)
 - Added a linear layer at the end of the discriminator network instead of sigmoid.
 - For both networks, optimizer is changed to RMSprop.
 - LR = 0.00005
