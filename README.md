@@ -34,7 +34,9 @@ Changes from v1:
 
 | Score Plot | Loss Plot |
 |:----------:|:----------:|
-![image](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/5f757d9c-1697-4de3-a97d-82a661e21747)
+!![Score Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/99872d5b-a4fa-4784-9bb6-6c936129ad8d) | ![Loss Plot](https://github.com/yigitsevim/AnimeFacesWithGAN/assets/58977041/828bfe1e-5252-4a4b-b2fe-b12163007beb)
+
+
 
 
 # v3
